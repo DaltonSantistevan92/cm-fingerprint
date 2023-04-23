@@ -1,0 +1,7 @@
+{
+  "name": "finger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
