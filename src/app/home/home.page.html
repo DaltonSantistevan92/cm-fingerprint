@@ -1,20 +1,20 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-button (click)="regresar()" slot="start" fill="clear" shape="round">
+     regresar
+    </ion-button>
     <ion-title>
-      Blank
+      Ionic Biometric Login
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-row class="home-row ion-justify-content-center">
+    <img src="assets/img/unlocked.svg" class="unlock-img">
+  </ion-row>
+  <ion-row class="login-row ion-justify-content-center">
+    <ion-text color="success">
+      <h3>Desbloqueado</h3>
+    </ion-text>
+  </ion-row>
 </ion-content>

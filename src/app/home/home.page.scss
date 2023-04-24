@@ -1,27 +1,16 @@
-#container {
-  text-align: center;
+ion-content {
+  height: 100%;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  .home-row {
+    margin-top: 4rem;
+  }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+  .unlock-img {
+    width: 10rem;
+    margin-bottom: 2rem;
+  }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  .button {
+    margin-top: 2rem;
+  }
 }
